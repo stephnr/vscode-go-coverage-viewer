@@ -1,7 +1,11 @@
 {
     "name": "go-coverage-viewer",
     "displayName": "go-coverage-viewer",
-    "description": "View your code coverage right inside the editor!",
+    "description": "Go Coverage Viewer is the simplest way to view your code coverage results right inside the editor",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/defaltd/vscode-go-coverage-viewer"
+    },
     "version": "0.0.1",
     "publisher": "defaltd",
     "engines": {
@@ -11,14 +15,15 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onLanguage:go"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.generateCoverage",
+                "title": "Go Coverage: Display Coverage Results",
+                "category": "Go Coverage"
             }
         ]
     },
@@ -30,10 +35,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "tslint": "^5.8.0",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^2.8.3",
+        "vscode": "*",
+        "tslint": "^5.10.0",
+        "@types/node": "^10.0.4",
+        "@types/mocha": "^5.2.0"
     }
 }
