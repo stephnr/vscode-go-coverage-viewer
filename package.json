@@ -1,12 +1,13 @@
 {
     "name": "go-coverage-viewer",
-    "displayName": "go-coverage-viewer",
+    "displayName": "Go Coverage Viewer",
+    "icon": "images/icon.png",
     "description": "Go Coverage Viewer is the simplest way to view your code coverage results right inside the editor",
     "repository": {
         "type": "git",
         "url": "https://github.com/defaltd/vscode-go-coverage-viewer"
     },
-    "version": "0.0.1",
+    "version": "1.0.1",
     "publisher": "defaltd",
     "engines": {
         "vscode": "^1.23.0"
