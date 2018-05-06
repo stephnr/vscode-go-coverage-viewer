@@ -1,7 +1,11 @@
-# Change Log
-All notable changes to the "go-coverage-viewer" extension will be documented in this file.
+# 1.0.2
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Add icon
 
-## [Unreleased]
-- Initial release
+# 1.0.1
+
+- Update README
+
+# 1.0.0
+
+- First release with command to generate code coverage

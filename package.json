@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/defaltd/vscode-go-coverage-viewer"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "defaltd",
     "engines": {
         "vscode": "^1.23.0"
