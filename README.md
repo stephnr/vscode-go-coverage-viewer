@@ -1,4 +1,6 @@
-# go-coverage-viewer README
+# go-coverage-viewer
+
+![Screenshot](https://github.com/defaltd/vscode-go-coverage-viewer/blob/master/screenshot.png)
 
 This is the README for your extension "go-coverage-viewer". After writing up a brief description, we recommend including the following sections.
 
