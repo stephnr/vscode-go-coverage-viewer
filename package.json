@@ -13,7 +13,7 @@
         "vscode": "^1.23.0"
     },
     "extensionDependencies": [
-        "ms-vscode.go"
+        "golang.go"
     ],
     "categories": [
         "Other"
